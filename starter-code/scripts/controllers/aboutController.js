@@ -3,6 +3,7 @@
 
   aboutController.reveal = function() {
     /* TODO: DONE Reveal only the about section! */
+    $('#articles').hide();
     $('#about').show();
   };
 
