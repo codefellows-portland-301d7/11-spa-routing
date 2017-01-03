@@ -2,7 +2,9 @@
   var aboutController = {};
 
   aboutController.reveal = function() {
-    /* TODO: Reveal only the about section! */
+    $('section').hide();
+    $('#about').children().addBack().fadeIn();
+    /* TODO: DONE Reveal only the about section! */
   };
 
   module.aboutController = aboutController;
