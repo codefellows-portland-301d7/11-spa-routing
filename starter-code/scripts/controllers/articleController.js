@@ -2,7 +2,8 @@
   var articleController = {};
 
   articleController.reveal = function() {
-    /* TODO: Reveal only the articles section! */
+    $('section[id="about"]').hide();
+    $('section[id="articles"]').show();
   };
 
   module.articleController = articleController;
